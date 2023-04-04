@@ -1,0 +1,82 @@
+.inputwork{
+    
+   
+    z-index:2;  
+    background:none;
+    width:50px;
+   }
+   
+   .general1{
+    align-items:center;
+    text-align:center;
+    justify-content:center;
+    }
+
+    .link1{
+      margin-top:-5px; 
+      margin-left:5px; 
+      text-decoration:none;
+      color:#f82d97; 
+      font-size:18px;
+    }
+    .link{
+        text-decoration:none;  
+        color:#f82d97; 
+        font-size:18px;
+        background:none;
+        border:none;
+    }
+
+    .custom-btn {
+        width: 300px;
+        height: 40px;
+        color:#252525;
+        border-radius: 10px;
+        
+      margin-top:50px;
+      font-size:22px;
+        background:#e0e0e0;
+        cursor: pointer;
+        transition: all 0.3s ease;
+        position: relative;
+        text-align: center;
+        justify-content: center;
+        display: inline-block;
+        box-shadow: inset 2px 2px 2px 0px rgba(255,255,255,.5),
+          7px 7px 20px 0px rgba(0,0,0,.1),
+          4px 4px 5px 0px rgba(0,0,0,.1);
+        outline: none;
+       }
+       
+       .btn-1 {
+        background:  #01c4e7;
+        background: linear-gradient(0deg,  #01d9ff 0%,  #05daff 100%);
+        border: none;
+       }
+       
+       .btn-1:hover {
+        background:  #01c4e7;
+        background: linear-gradient(0deg, #01d9ff 0%,  #0c98b0 100%);
+       }
+     
+    .card1{
+      background-image:url('../../images/neon2.png');
+      width:50%;
+      height:70vh;
+      background-repeat: no-repeat;
+      background-size: 100% 100%;
+      margin-top:100px;
+      min-width:370px;
+      border-radius: 10px;
+      align-items:center;
+      text-align:center;
+      justify-content:center;
+      box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+     
+  } 
+
+.button1{
+  background:none;
+  border:none;
+ 
+}

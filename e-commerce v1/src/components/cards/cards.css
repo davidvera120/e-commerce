@@ -1,0 +1,280 @@
+.cardsInfo{
+   
+    width:216px;
+    height:85px;
+    display:flex;
+   text-align:center;
+    justify-content: center;
+    padding:6px;
+}
+
+.col-9 > h6{
+font-size:20px;
+font-weight:bold;
+}
+
+.col-9 > p{
+    font-size:16px;
+    font-weight:100;   
+}
+
+.icons{
+    font-size: 35px;
+    color:#A3DE55;
+}
+
+.cardP {
+  width: 270px;
+  height: 350px;
+  background-color:#ffffffea;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+
+
+}
+
+.button-cart {
+  width:90%;
+  height:32px;
+  color: #090909;
+  margin-top:10px;
+  padding:0;
+  text-align: center;
+  justify-content: center;
+  display: inline-block;
+  font-size: 17px;
+  font-weight: 300;
+  border-radius: 5px;
+  background: #e8e8e8;
+  border: 1px solid #e8e8e8;
+  transition: all .3s;
+  box-shadow: 3px 3px 8px #c5c5c5,
+              -3px -3px 8px #ffffff;
+ }
+ 
+ .button-cart:active {
+  color:#A3DE55;
+  box-shadow: inset 4px 4px 12px #c5c5c5,
+              inset -4px -4px 12px #ffffff;
+ }
+
+ .button-cart:hover{
+  color:#A3DE55;
+  background-color:#c1c1c1;
+ }
+
+.fav{
+  border-radius:50%;
+  height:30px;
+  width:30px;
+  border:none;
+  background-color:#e2e2e2;
+  position:absolute;
+  margin-top:10px;
+}
+
+.fav:hover{
+  background-color:#ccc;
+  color:#A3DE55;
+}
+.container2{
+  width:85%;
+  text-align:right;
+ 
+}
+ 
+ .container1{
+  position:relative;
+  overflow:hidden;
+  width:100%;
+  height:250px;
+ }
+.imgcard{
+border-top-left-radius:10px;
+border-top-right-radius: 10px; 
+width:100%; 
+height:230px; 
+object-fit:cover;
+}
+.name{
+margin-top:0px;
+margin:0;
+  font-size:18px;
+  font-weight: 500;
+}
+.price{
+  margin-top: 5px;
+  font-size:20px;
+  font-weight: 100;
+  color:#A3DE55;
+}
+
+.card-content {
+  width: 170px;
+  padding: 0 10px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -45%);
+  text-align: center;
+  color: rgb(0, 0, 0);
+  z-index: 1;
+  background-color: white;
+  transition: all 0.3s ease-in-out;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-direction: column;
+}
+
+.cards{
+    display:flex;
+    text-align:center;
+    justify-content: space-evenly;
+    width:95%;
+    margin:0 auto;
+    flex-wrap:wrap;
+}
+
+.container-cards{
+    display:flex;
+    gap:20px; 
+    width:95%;
+    margin:0 auto;
+    margin-top:-8px;
+}
+
+.slidecontainer {
+    width: 100%;
+    text-align: center;
+    justify-content: center;
+  }
+  
+  .slider {
+    -webkit-appearance: none;
+    width: 100%;
+    height: 25px;
+    background: #d3d3d3;
+    outline: none;
+    opacity: 0.7;
+    -webkit-transition: .2s;
+    transition: opacity .2s;
+  }
+  
+  .slider:hover {
+    opacity: 1;
+  }
+  
+  .slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 25px;
+    height: 25px;
+    background: red;
+    cursor: pointer;
+  }
+  
+  .slider::-moz-range-thumb {
+    width: 25px;
+    height: 25px;
+    background: #A3DE55;
+    cursor: pointer;
+  }
+
+/* The side navigation menu */
+.sidebar {
+    margin: 0;
+    padding: 0;
+    width: 200px;
+    height:400px;
+    text-align:left;
+ 
+  }
+  
+  /* Sidebar links */
+  .sidebar button {
+    display: block;
+    color: black;
+    text-decoration: none;
+    border:none;
+    background:none;
+    padding: 5px;
+    width:90%;
+    text-align: start;
+    border-bottom: 0.5px solid #c1c1c1;
+  }
+
+
+
+  /* Page content. The value of the margin-left property should match the value of the sidebar's width property */
+.content {  
+margin: 0 auto;
+width:100%;
+min-width: 370px;
+text-align: center;
+display: flex;
+flex-wrap:wrap;
+justify-content: space-evenly;
+gap:20px;
+  } 
+  
+
+  @media (max-width: 1000px) {
+    .sidebar {
+        margin: 0;
+    padding: 0;
+    width: 200px;
+    height: 400px;
+    text-align:left;
+     position: absolute;
+     z-index:20;
+    }
+
+    .container-cards{
+      display:flex;
+     flex-wrap:wrap;
+      gap:20px; 
+      width:95%;
+      margin:0 auto;
+      margin-top:-8px;
+  }
+    
+.button-filter{
+  width:100%;
+  text-align:center;
+ border:1px solid #ccc;
+ border-radius:5px;
+ padding: 5px;
+}
+  }
+  
+ 
+
+@media (max-width: 500px) {
+
+    .cardsInfo{
+        width:170px;
+        height:65px;
+        display:flex;
+        flex-direction:row;
+       text-align:center;
+        justify-content: center;
+        padding:6px;
+    }
+
+    .col-9 > h6{
+        font-size:16px;
+        font-weight:bold;
+        }
+        
+        .col-9 > p{
+            font-size:13px;
+            font-weight:100;   
+        }
+
+        .icons{
+            font-size: 25px;
+            color:#A3DE55;
+        }
+
+}

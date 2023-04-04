@@ -1,0 +1,357 @@
+.check{
+    display:flex;
+    gap:20px; 
+    width:95%;
+   margin:0 auto;
+margin-top:100px;
+
+padding-bottom:70px
+    
+}
+
+.form-input{
+    width: 20rem;
+    height:35px;
+    border: 1px solid #ccc;
+    border-radius:5px;
+}
+
+.form-input1{
+    border: 1px solid #ccc;
+    height:35px;
+    border-radius:5px;
+}
+.form-input2{
+    width:9.4rem;
+    border: 1px solid #ccc;
+    border-radius:5px;
+    height:35px;
+}
+.form-input:focus{
+    border:#5cb85c; 
+}
+
+.check2{
+    width:90%;
+    min-width:370px;
+    margin:0 auto;
+    padding:10px;
+    background:#2F2E34;
+}
+
+.checkout-total{
+    display:flex;
+    border-bottom: 1px solid #c1c1c1;
+    margin-top:30px;
+    justify-content:space-between;
+    color:#fff;
+}
+.checkout-final{
+    margin: 0 auto;
+    width:90%;
+    text-align: center;
+    border-radius: 10px;
+    padding:20px;
+    }
+
+    .checkout-final2{
+        margin: 0 auto;
+        padding:20px;
+        width:90%;
+        height:500px;
+        border-radius: 10px;
+        border: 1px solid #c1c1c1;
+        
+        }
+
+    .cart-list{
+        overflow:scroll; 
+        margin: 0 auto;
+        
+        width:100%;
+        height:400px;
+        
+        
+        
+    }
+
+    .cart-list::-webkit-scrollbar {
+        -webkit-appearance: none;
+        height:25px;
+       
+      }
+
+    .cart-list::-webkit-scrollbar:vertical {
+ 
+        width:5px;
+       
+      }
+      
+      .cart-list::-webkit-scrollbar-button:increment{
+        display: none;
+      } 
+      
+      .cart-list::-webkit-scrollbar-button {
+        display: none;
+      } 
+      
+      .cart-list::-webkit-scrollbar:horizontal {
+        height: 0px;
+        width:100%;
+      }
+      
+      .cart-list::-webkit-scrollbar-thumb {
+        background-color: #797979;
+        border-radius: 20px;
+        border: 0.5px solid #f1f2f3;
+       
+      }
+      
+      .cart-list::-webkit-scrollbar-track {
+        border-radius: 20px;  
+      }
+      
+
+
+
+
+.price{
+    margin-top: 5px;
+    font-size:20px;
+    font-weight: 100;
+    color:#A3DE55;
+  }
+  .title-cart{
+    color:#fff;
+  }
+  .namep{
+   
+    font-size:18px;
+    font-weight: 200;
+    color:#fff;
+  }
+
+.form-text1{
+    border: 1px solid #ccc;
+    border-radius:5px;
+}
+
+.title1{
+    font-size: 18px;
+    font-weight: 200;
+}
+.boxcart2{
+    display:flex;
+    width: 95%;
+    gap:10px;
+    border-bottom: 1px solid #c1c1c1;
+    padding-bottom: 20px;
+    margin:0 auto;
+    text-align:center;
+    }
+.wrapper2{
+    width:90px;
+    height:30px;
+    min-width:60px;
+    display:flex;
+    align-items:center;
+    justify-content:space-evenly;
+    gap:5px;
+    background: #e2e2e2;
+    border-radius:10px;
+    padding:10px;
+    }
+
+.form-control{
+    width:370px;
+}
+.check-input{
+    display: flex;
+    margin: 0 auto;
+    text-align:center;
+    justify-content:center;
+}
+
+.shipping{
+height:80px;
+width: 150px;
+}
+
+.guest{
+    display :flex;
+    flex-wrap:wrap;
+    gap:10px;
+    justify-content:center; 
+}
+
+.ship{
+    display :flex;
+    flex-wrap:wrap;
+    
+    justify-content:space-between;
+}
+
+
+form{
+margin-top:170px;
+}
+
+.card2{
+    width:90%;
+    min-width:370px;
+    
+    margin:0 auto;
+}
+
+.credit{
+    margin:0 auto;
+    display:flex;
+   width:80%;
+    justify-content:space-around;
+}
+.credit1{
+    margin:0 auto;
+    justify-content:flex-start;
+   width:80%;
+   
+}
+
+img{
+    height:50px;
+ 
+}
+
+.radio-button {
+    display: flex;
+    gap: 5px;
+    justify-content: center;
+    margin: 10px;
+    position: relative;
+    align-items: center;
+  }
+  
+  .radio-button input[type="radio"] {
+    position: absolute;
+    opacity: 0;
+  }
+  
+  .radio {
+    position: relative;
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    border: 2px solid #ccc;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+    transform: translateZ(-25px);
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .radio::before {
+    position: absolute;
+    content: '';
+    width: 6px;
+    height: 6px;
+    top: 5px;
+    left: 5px;
+    border-radius: 50%;
+    background-color: #fff;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+    opacity: 0;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .radio-button input[type="radio"]:checked + .radio {
+    border-color: #96f985;
+    transform: translateZ(0px);
+    background-color: #fff;
+  }
+  
+  .radio-button input[type="radio"]:checked + .radio::before {
+    opacity: 1;
+  }
+  
+  .button-checkout2 {
+    width:90%;
+    height:40px;
+    color: #090909;
+    margin-top:20px;
+    padding:0;
+    text-align: center;
+    justify-content: center;
+    display: inline-block;
+    font-size: 19px;
+    font-weight: 300;
+    border-radius: 5px;
+    background: #A3DE55;
+    border: 1px solid #e8e8e8;
+    transition: all .3s;
+    box-shadow: 3px 3px 8px #c5c5c5,
+                -3px -3px 8px #ffffff;
+   }
+   
+   .button-checkout2:active {
+    color:#96f985;
+    box-shadow: inset 4px 4px 12px #c5c5c5,
+                inset -4px -4px 12px #ffffff;
+   }
+  
+   .button-checkout2:hover{
+    color:#96f985;
+    background-color:#c1c1c1;
+   }
+
+   .button-checkout3 {
+    width:50px;
+    height:30px;
+    color: #090909;
+    margin-top:20px;
+    padding:0;
+    text-align: center;
+    justify-content: center;
+    display: inline-block;
+    font-size: 13px;
+    font-weight: 300;
+    border-radius: 5px;
+    background: #e8e8e8;
+    border: 1px solid #e8e8e8;
+    transition: all .3s;
+   
+   }
+   
+   .button-checkout3:active {
+    color:red;
+    box-shadow: inset 4px 4px 12px #c5c5c5,
+                inset -4px -4px 12px #ffffff;
+   }
+  
+   .button-checkout3:hover{
+    color:red;
+    background-color:#c1c1c1;
+   }
+
+.buttons{
+    margin:0 auto;
+    gap:10px;
+    display:flex;
+}
+
+@media (max-width: 650px) {
+
+    img{
+        height:30px;
+    }    
+}
+
+
+@media (max-width: 950px) {
+    .check{
+        display:flex;
+        gap:20px; 
+        width:95%;
+    margin: 0 auto;
+        flex-wrap:wrap;
+        margin-top:100px;
+        padding-bottom:70px
+    }
+}
